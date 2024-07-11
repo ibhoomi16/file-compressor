@@ -13,19 +13,13 @@ Huffman coding is a lossless compression algorithm, meaning that the decompresse
 Huffman coding is widely adopted and implemented in various applications, including file compression utilities (e.g., ZIP) and network protocols, attesting to its effectiveness.
 ## Simple and Fast Decoding:
 The decoding process in Huffman coding is straightforward and fast. The prefix-free nature of the codes ensures unambiguous decoding, making it efficient for both compression and decompression.
-# Demerits of the tool
-## Compression Overhead for Small Files:
-For very small files or files with limited redundancy, the overhead introduced by the Huffman coding tree might result in a compressed file size that is larger than the original.
-## Complexity in Real-Time Applications:
-While Huffman coding is generally efficient, its adaptive nature and tree-building process might introduce complexities in real-time applications where encoding and decoding need to be performed quickly.
-## Limited Compression Improvement with ASCII Text:
-For ASCII text, where each character already requires 8 bits, the potential for compression improvement is limited compared to scenarios where symbol frequencies vary widely.
 
 # Getting Started
 ## Step1 : 
 Clone the repository(make sure git is installed)
 
-        git clone https://github.com/dave1725/File_compressor.git
+        git clone https://repo name
+        
 
 ## Step2 : 
 Compile the project source file using g++ or any compiler
@@ -57,20 +51,6 @@ Executing the project.
 ## Step3 : 
 Finally! Run the project executable file.
 
-# Members
-+ Krish Nariya
-+ Aakarsh Lohani
-+ Piyusha Mukherjee
-+ Nivedha Sriram
-+ Priyam Kotnala
-+ Dave Meshak
 
-# References
-+ https://www.geeksforgeeks.org/text-file-compression-and-decompression-using-huffman-coding/
-+ https://codereview.stackexchange.com/questions/195251/compression-decompression-using-huffman-coding-algorithm
-+ https://www.programiz.com/dsa/huffman-coding
-
-# License
-This project is licensed under MIT license - Kindly refer the LICENSE file for details.
 
 
